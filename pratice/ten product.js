@@ -213,7 +213,7 @@ cardContainer.innerHTML = products.map(product => `
         src="${product.Image}" 
         alt="Regular Fitted Shirts"
       >
-      <p class="font-bold text-lg">${product.proName}</p>
+      <p class="font-bold text-lg line-clamp-1">${product.proName}</p>
       <div class="flex items-center mt-2.5 mb-5">
                     <div class="flex items-center space-x-1 rtl:space-x-reverse">
                         <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
